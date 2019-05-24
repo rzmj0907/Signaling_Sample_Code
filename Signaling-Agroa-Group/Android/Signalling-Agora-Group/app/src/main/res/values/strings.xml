@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AVAGROUP</string>
+
+    <!--input agora app id-->
+    <string name="agora_app_id"></string>
+    <string name="private_app_id"></string>
+    <string name="account_hint">账号</string>
+    <string name="login_now">立即登录</string>
+    <string name="password">密码</string>
+    <string name="call_number">呼叫帐号</string>
+    <string name="call_now">立即呼叫</string>
+    <string name="accept">接受</string>
+    <string name="reject">拒绝</string>
+    <string name="please_input_channel_name">请输入频道号码,最多8位</string>
+    <string name="create_room">创建房间</string>
+
+    <string name="bit_rate_value_with_unit">%d kbps</string>
+    <string name="frame_rate_value_with_unit">%d fps</string>
+    <string name="msg_no_network_connection">No network connection, please check the network settings</string>
+    <string name="invite_member">邀请成员</string>
+    <string name="input_account_id">请输入成员id</string>
+
+    <string-array
+        name="string_array_resolutions">
+        <item>160x120</item> // 120P
+        <item>320x180</item> // 180P
+        <item>320x240</item> // 240P the default one
+        <item>640x360</item> // 360P
+        <item>640x480</item> // 480P
+        <item>1280x720</item> // 720P
+    </string-array>
+
+
+    <string-array
+        name="string_array_frame_rate">
+        <item>15</item> // 120P
+        <item>15</item> // 180P
+        <item>15</item> // 240P
+        <item>15</item> // 360P
+        <item>15</item> // 480P
+        <item>15</item> // 720P
+    </string-array>
+
+    <string-array
+        name="string_array_bit_rate">
+        <item>80</item> // 120P
+        <item>160</item> // 180P
+        <item>200</item> // 240P
+        <item>400</item> // 360P
+        <item>500</item> // 480P
+        <item>1000</item> // 720P
+    </string-array>
+
+</resources>

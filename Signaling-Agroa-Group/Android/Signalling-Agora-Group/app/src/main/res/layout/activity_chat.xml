@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:keepScreenOn="true">
+
+    <com.netease.signalling.demo.ui.GridVideoViewContainer
+        android:id="@+id/grid_video_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ViewStub
+        android:id="@id/small_video_view_dock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:inflatedId="@id/small_video_view_dock"
+        android:layout="@layout/small_video_view_dock"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/channel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/ll_edit_account_container"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/channel_name"
+            android:layout_marginLeft="@dimen/dp_size_16"
+            android:layout_marginRight="@dimen/dp_size_16"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/invite_user_account"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:hint="@string/input_account_id"
+                android:inputType="text"
+                android:paddingBottom="@dimen/dp_size_7"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/sp_size_15"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:id="@+id/invite"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/blue_round_25_selector"
+                android:gravity="center"
+                android:onClick="onInviteClicked"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/invite_member"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/split_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/ll_edit_account_container"
+            android:layout_marginLeft="@dimen/dp_size_16"
+            android:layout_marginRight="@dimen/dp_size_106"
+            android:background="@color/white"></View>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp">
+
+            <ImageView
+                android:id="@+id/iv_mute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:onClick="onVoiceMuteClicked"
+                android:padding="5dp"
+                android:src="@drawable/btn_mute"/>
+
+            <ImageView
+                android:id="@+id/bottom_action_end_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:onClick="onEndCallClicked"
+                android:padding="5dp"
+                android:src="@drawable/btn_end_call"/>
+
+
+            <ImageView
+                android:id="@+id/iv_close_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:onClick="onVoiceChatClicked"
+                android:padding="5dp"
+                android:src="@drawable/btn_video"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

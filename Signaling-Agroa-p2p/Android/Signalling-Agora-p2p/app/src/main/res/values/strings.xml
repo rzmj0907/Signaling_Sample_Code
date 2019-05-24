@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AVAOTO</string>
+    <!--input agora app id-->
+    <string name="agora_app_id"></string>
+    <string name="account_hint">账号</string>
+    <string name="login_now">立即登录</string>
+    <string name="password">密码</string>
+    <string name="call_number">呼叫帐号</string>
+    <string name="call_now">立即呼叫</string>
+    <string name="accept">接受</string>
+    <string name="reject">拒绝</string>
+</resources>
