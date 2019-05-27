@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Login.qml</file>
+        <file>LoginForm.ui.qml</file>
+        <file>CreateChannel.qml</file>
+        <file>CreateChannelForm.ui.qml</file>
+        <file>../shared/qml/images/vchat/camera.png</file>
+        <file>../shared/qml/images/vchat/camera_disabled.png</file>
+        <file>../shared/qml/images/vchat/hangup_hovered.png</file>
+        <file>../shared/qml/images/vchat/hangup_normal.png</file>
+        <file>../shared/qml/images/vchat/hangup_pushed.png</file>
+        <file>../shared/qml/images/vchat/microphone.png</file>
+        <file>../shared/qml/images/vchat/microphone_disabled.png</file>
+        <file>VChat.qml</file>
+        <file>VChatForm.ui.qml</file>
+    </qresource>
+</RCC>
