@@ -38,6 +38,15 @@ int main(int argc, char *argv[])
 
     int res = app.exec();
 
+    if (loginManager != nullptr)
+        delete loginManager;
+
+    if (channelManager != nullptr)
+        delete channelManager;
+
+    if (agoraEngine != nullptr)
+        delete agoraEngine;
+
     nim::Client::Cleanup2(); // cleanup with logout
 
     return res;
