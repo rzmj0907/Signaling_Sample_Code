@@ -1,0 +1,18 @@
+//
+//  Signalling_Agora_p2p.pch
+//  Signalling_Agora_p2p
+//
+//  Created by Netease on 2019/4/26.
+//  Copyright © 2019年 Netease. All rights reserved.
+//
+
+#ifndef Signalling_Agora_p2p_pch
+#define Signalling_Agora_p2p_pch
+
+#import <NIMSDK/NIMSDK.h>
+#import <AgoraRtcEngineKit/AgoraRtcEngineKit.h>
+#import "UIView+Toast.h"
+#import "NTESDataCenter.h"
+#import "NTESDemoConfig.h"
+
+#endif /* Signalling_Agora_p2p_pch */

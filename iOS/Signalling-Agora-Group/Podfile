@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Signaling_Agora_Group' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Signaling_Agora_Group
+    pod 'AgoraRtcEngine_iOS', '~> 2.4.0.1'
+    pod 'NIMSDK', '~> 6.5.0'
+
+end
