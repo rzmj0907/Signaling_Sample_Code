@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CAF1D9B5E659B2C76A793C8 /* libPods-Signaling_Agora_Group.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2305B5214E3E0522BD9E15 /* libPods-Signaling_Agora_Group.a */; };
+		E63C2C10229B85440072D224 /* NTESLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C2C0B229B85440072D224 /* NTESLoginVC.m */; };
+		E63C2C11229B85440072D224 /* NTESMeetingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C2C0C229B85440072D224 /* NTESMeetingVC.m */; };
+		E63C2C12229B85440072D224 /* NTESSelectedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C2C0D229B85440072D224 /* NTESSelectedVC.m */; };
+		E63C2C16229B854A0072D224 /* NTESDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E63C2C14229B854A0072D224 /* NTESDisplayView.m */; };
+		E64ACC86228568DE00E9C4B8 /* NSString+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = E64ACC7F228568DD00E9C4B8 /* NSString+NTES.m */; };
+		E64ACC87228568DE00E9C4B8 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = E64ACC81228568DD00E9C4B8 /* UIView+Toast.m */; };
+		E64ACC99228568ED00E9C4B8 /* NTESDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E64ACC97228568ED00E9C4B8 /* NTESDataCenter.m */; };
+		E64ACCA7228589B200E9C4B8 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCA6228589B200E9C4B8 /* CoreML.framework */; };
+		E64ACCA9228589B800E9C4B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCA8228589B800E9C4B8 /* AVFoundation.framework */; };
+		E64ACCAB228589BE00E9C4B8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCAA228589BE00E9C4B8 /* CoreTelephony.framework */; };
+		E64ACCAD228589C400E9C4B8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCAC228589C400E9C4B8 /* AudioToolbox.framework */; };
+		E64ACCAF228589CA00E9C4B8 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCAE228589CA00E9C4B8 /* VideoToolbox.framework */; };
+		E64ACCB1228589D000E9C4B8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCB0228589D000E9C4B8 /* CoreMedia.framework */; };
+		E64ACCB3228589DB00E9C4B8 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCB2228589DB00E9C4B8 /* libresolv.tbd */; };
+		E64ACCB5228589E000E9C4B8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCB4228589E000E9C4B8 /* libc++.tbd */; };
+		E64ACCB7228589E800E9C4B8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCB6228589E800E9C4B8 /* SystemConfiguration.framework */; };
+		E64ACCB9228589F100E9C4B8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64ACCB8228589F000E9C4B8 /* Accelerate.framework */; };
+		E6E35B7B2284280200468AE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E35B7A2284280200468AE6 /* AppDelegate.m */; };
+		E6E35B812284280200468AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E35B7F2284280200468AE6 /* Main.storyboard */; };
+		E6E35B832284280500468AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E35B822284280500468AE6 /* Assets.xcassets */; };
+		E6E35B862284280500468AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E35B842284280500468AE6 /* LaunchScreen.storyboard */; };
+		E6E35B892284280500468AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E35B882284280500468AE6 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E64ACC632285670300E9C4B8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47E0A6A67B5BC9EB028AA779 /* Pods-Signaling_Meeting_Agora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signaling_Meeting_Agora.release.xcconfig"; path = "Target Support Files/Pods-Signaling_Meeting_Agora/Pods-Signaling_Meeting_Agora.release.xcconfig"; sourceTree = "<group>"; };
+		7A77EFD44CD1B2F3F33E8B28 /* Pods-Signaling_Agora_Group.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signaling_Agora_Group.debug.xcconfig"; path = "Target Support Files/Pods-Signaling_Agora_Group/Pods-Signaling_Agora_Group.debug.xcconfig"; sourceTree = "<group>"; };
+		B9021EB340FD797B796C751C /* Pods-Signaling_Agora_Group.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signaling_Agora_Group.release.xcconfig"; path = "Target Support Files/Pods-Signaling_Agora_Group/Pods-Signaling_Agora_Group.release.xcconfig"; sourceTree = "<group>"; };
+		BCA7027B52029500D837F3CF /* libPods-Signaling_Meeting_Agora.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Signaling_Meeting_Agora.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF615F3462F70C36911DAF73 /* Pods-Signaling_Meeting_Agora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Signaling_Meeting_Agora.debug.xcconfig"; path = "Target Support Files/Pods-Signaling_Meeting_Agora/Pods-Signaling_Meeting_Agora.debug.xcconfig"; sourceTree = "<group>"; };
+		E63C2C08229B83590072D224 /* NTESDemoConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESDemoConfig.h; sourceTree = "<group>"; };
+		E63C2C0A229B85440072D224 /* NTESSelectedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSelectedVC.h; sourceTree = "<group>"; };
+		E63C2C0B229B85440072D224 /* NTESLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESLoginVC.m; sourceTree = "<group>"; };
+		E63C2C0C229B85440072D224 /* NTESMeetingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESMeetingVC.m; sourceTree = "<group>"; };
+		E63C2C0D229B85440072D224 /* NTESSelectedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSelectedVC.m; sourceTree = "<group>"; };
+		E63C2C0E229B85440072D224 /* NTESLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESLoginVC.h; sourceTree = "<group>"; };
+		E63C2C0F229B85440072D224 /* NTESMeetingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESMeetingVC.h; sourceTree = "<group>"; };
+		E63C2C14229B854A0072D224 /* NTESDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESDisplayView.m; sourceTree = "<group>"; };
+		E63C2C15229B854A0072D224 /* NTESDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESDisplayView.h; sourceTree = "<group>"; };
+		E64ACC642285678300E9C4B8 /* Signalling_Agora_Group.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Signalling_Agora_Group.pch; sourceTree = "<group>"; };
+		E64ACC7E228568DD00E9C4B8 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		E64ACC7F228568DD00E9C4B8 /* NSString+NTES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NTES.m"; sourceTree = "<group>"; };
+		E64ACC80228568DD00E9C4B8 /* NSString+NTES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NTES.h"; sourceTree = "<group>"; };
+		E64ACC81228568DD00E9C4B8 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		E64ACC95228568ED00E9C4B8 /* NTESDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESDataCenter.h; sourceTree = "<group>"; };
+		E64ACC97228568ED00E9C4B8 /* NTESDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESDataCenter.m; sourceTree = "<group>"; };
+		E64ACCA6228589B200E9C4B8 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		E64ACCA8228589B800E9C4B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E64ACCAA228589BE00E9C4B8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E64ACCAC228589C400E9C4B8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E64ACCAE228589CA00E9C4B8 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		E64ACCB0228589D000E9C4B8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E64ACCB2228589DB00E9C4B8 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		E64ACCB4228589E000E9C4B8 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E64ACCB6228589E800E9C4B8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E64ACCB8228589F000E9C4B8 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		E6E35B762284280200468AE6 /* Signaling_Agora_Group.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signaling_Agora_Group.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E35B792284280200468AE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6E35B7A2284280200468AE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6E35B802284280200468AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6E35B822284280500468AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E35B852284280500468AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6E35B872284280500468AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E35B882284280500468AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB2305B5214E3E0522BD9E15 /* libPods-Signaling_Agora_Group.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Signaling_Agora_Group.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E35B732284280200468AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64ACCB9228589F100E9C4B8 /* Accelerate.framework in Frameworks */,
+				E64ACCB7228589E800E9C4B8 /* SystemConfiguration.framework in Frameworks */,
+				E64ACCB5228589E000E9C4B8 /* libc++.tbd in Frameworks */,
+				E64ACCB3228589DB00E9C4B8 /* libresolv.tbd in Frameworks */,
+				E64ACCB1228589D000E9C4B8 /* CoreMedia.framework in Frameworks */,
+				E64ACCAF228589CA00E9C4B8 /* VideoToolbox.framework in Frameworks */,
+				E64ACCAD228589C400E9C4B8 /* AudioToolbox.framework in Frameworks */,
+				E64ACCAB228589BE00E9C4B8 /* CoreTelephony.framework in Frameworks */,
+				E64ACCA9228589B800E9C4B8 /* AVFoundation.framework in Frameworks */,
+				E64ACCA7228589B200E9C4B8 /* CoreML.framework in Frameworks */,
+				5CAF1D9B5E659B2C76A793C8 /* libPods-Signaling_Agora_Group.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4949FE6F512421D54E2A84E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF615F3462F70C36911DAF73 /* Pods-Signaling_Meeting_Agora.debug.xcconfig */,
+				47E0A6A67B5BC9EB028AA779 /* Pods-Signaling_Meeting_Agora.release.xcconfig */,
+				7A77EFD44CD1B2F3F33E8B28 /* Pods-Signaling_Agora_Group.debug.xcconfig */,
+				B9021EB340FD797B796C751C /* Pods-Signaling_Agora_Group.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E63C2C09229B85440072D224 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				E63C2C0A229B85440072D224 /* NTESSelectedVC.h */,
+				E63C2C0B229B85440072D224 /* NTESLoginVC.m */,
+				E63C2C0C229B85440072D224 /* NTESMeetingVC.m */,
+				E63C2C0D229B85440072D224 /* NTESSelectedVC.m */,
+				E63C2C0E229B85440072D224 /* NTESLoginVC.h */,
+				E63C2C0F229B85440072D224 /* NTESMeetingVC.h */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		E63C2C13229B854A0072D224 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E63C2C14229B854A0072D224 /* NTESDisplayView.m */,
+				E63C2C15229B854A0072D224 /* NTESDisplayView.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E63C2C18229B85790072D224 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E64ACC642285678300E9C4B8 /* Signalling_Agora_Group.pch */,
+				E6E35B7F2284280200468AE6 /* Main.storyboard */,
+				E6E35B822284280500468AE6 /* Assets.xcassets */,
+				E6E35B842284280500468AE6 /* LaunchScreen.storyboard */,
+				E6E35B872284280500468AE6 /* Info.plist */,
+				E6E35B882284280500468AE6 /* main.m */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		E63C2C36229B8DAD0072D224 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E63C2C09229B85440072D224 /* Sections */,
+				E63C2C13229B854A0072D224 /* Views */,
+				E64ACC94228568ED00E9C4B8 /* Unit */,
+				E64ACC7D228568DD00E9C4B8 /* Catagory */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E64ACC7D228568DD00E9C4B8 /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				E64ACC7E228568DD00E9C4B8 /* UIView+Toast.h */,
+				E64ACC81228568DD00E9C4B8 /* UIView+Toast.m */,
+				E64ACC7F228568DD00E9C4B8 /* NSString+NTES.m */,
+				E64ACC80228568DD00E9C4B8 /* NSString+NTES.h */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		E64ACC94228568ED00E9C4B8 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				E64ACC95228568ED00E9C4B8 /* NTESDataCenter.h */,
+				E64ACC97228568ED00E9C4B8 /* NTESDataCenter.m */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		E64ACCA5228589B100E9C4B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E64ACCB8228589F000E9C4B8 /* Accelerate.framework */,
+				E64ACCB6228589E800E9C4B8 /* SystemConfiguration.framework */,
+				E64ACCB4228589E000E9C4B8 /* libc++.tbd */,
+				E64ACCB2228589DB00E9C4B8 /* libresolv.tbd */,
+				E64ACCB0228589D000E9C4B8 /* CoreMedia.framework */,
+				E64ACCAE228589CA00E9C4B8 /* VideoToolbox.framework */,
+				E64ACCAC228589C400E9C4B8 /* AudioToolbox.framework */,
+				E64ACCAA228589BE00E9C4B8 /* CoreTelephony.framework */,
+				E64ACCA8228589B800E9C4B8 /* AVFoundation.framework */,
+				E64ACCA6228589B200E9C4B8 /* CoreML.framework */,
+				BCA7027B52029500D837F3CF /* libPods-Signaling_Meeting_Agora.a */,
+				FB2305B5214E3E0522BD9E15 /* libPods-Signaling_Agora_Group.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E35B6D2284280200468AE6 = {
+			isa = PBXGroup;
+			children = (
+				E6E35B782284280200468AE6 /* Signaling_Agora_Group */,
+				E6E35B772284280200468AE6 /* Products */,
+				E64ACCA5228589B100E9C4B8 /* Frameworks */,
+				4949FE6F512421D54E2A84E3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E35B772284280200468AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E35B762284280200468AE6 /* Signaling_Agora_Group.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E35B782284280200468AE6 /* Signaling_Agora_Group */ = {
+			isa = PBXGroup;
+			children = (
+				E6E35B792284280200468AE6 /* AppDelegate.h */,
+				E6E35B7A2284280200468AE6 /* AppDelegate.m */,
+				E63C2C08229B83590072D224 /* NTESDemoConfig.h */,
+				E63C2C36229B8DAD0072D224 /* Classes */,
+				E63C2C18229B85790072D224 /* Support Files */,
+			);
+			path = Signaling_Agora_Group;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E35B752284280200468AE6 /* Signaling_Agora_Group */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E35B8C2284280500468AE6 /* Build configuration list for PBXNativeTarget "Signaling_Agora_Group" */;
+			buildPhases = (
+				3E09E23D15393312521054A5 /* [CP] Check Pods Manifest.lock */,
+				E6E35B722284280200468AE6 /* Sources */,
+				E6E35B732284280200468AE6 /* Frameworks */,
+				E6E35B742284280200468AE6 /* Resources */,
+				E64ACC632285670300E9C4B8 /* Embed Frameworks */,
+				C69F341F6AF951CE9DBE4EDC /* [CP] Embed Pods Frameworks */,
+				3B4578FCD9AB0ACC64999906 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Signaling_Agora_Group;
+			productName = Signaling_Meeting_Agora;
+			productReference = E6E35B762284280200468AE6 /* Signaling_Agora_Group.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E35B6E2284280200468AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Netease;
+				TargetAttributes = {
+					E6E35B752284280200468AE6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E6E35B712284280200468AE6 /* Build configuration list for PBXProject "Signaling_Agora_Group" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E35B6D2284280200468AE6;
+			productRefGroup = E6E35B772284280200468AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E35B752284280200468AE6 /* Signaling_Agora_Group */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E35B742284280200468AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E35B862284280500468AE6 /* LaunchScreen.storyboard in Resources */,
+				E6E35B832284280500468AE6 /* Assets.xcassets in Resources */,
+				E6E35B812284280200468AE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B4578FCD9AB0ACC64999906 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Signaling_Agora_Group/Pods-Signaling_Agora_Group-resources.sh",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NMCVideoFilter.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Signaling_Agora_Group/Pods-Signaling_Agora_Group-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E09E23D15393312521054A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Signaling_Agora_Group-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C69F341F6AF951CE9DBE4EDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Signaling_Agora_Group/Pods-Signaling_Agora_Group-frameworks.sh",
+				"${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework",
+				"${PODS_ROOT}/NIMSDK/NIMAVChat/NMC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMAVChat.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NMC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Signaling_Agora_Group/Pods-Signaling_Agora_Group-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E35B722284280200468AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64ACC87228568DE00E9C4B8 /* UIView+Toast.m in Sources */,
+				E6E35B892284280500468AE6 /* main.m in Sources */,
+				E63C2C10229B85440072D224 /* NTESLoginVC.m in Sources */,
+				E6E35B7B2284280200468AE6 /* AppDelegate.m in Sources */,
+				E63C2C16229B854A0072D224 /* NTESDisplayView.m in Sources */,
+				E64ACC99228568ED00E9C4B8 /* NTESDataCenter.m in Sources */,
+				E64ACC86228568DE00E9C4B8 /* NSString+NTES.m in Sources */,
+				E63C2C11229B85440072D224 /* NTESMeetingVC.m in Sources */,
+				E63C2C12229B85440072D224 /* NTESSelectedVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6E35B7F2284280200468AE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E35B802284280200468AE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6E35B842284280500468AE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E35B852284280500468AE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6E35B8A2284280500468AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6E35B8B2284280500468AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E35B8D2284280500468AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A77EFD44CD1B2F3F33E8B28 /* Pods-Signaling_Agora_Group.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7C9A6NRV5L;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Signaling_Agora_Group/Support Files/Signalling_Agora_Group.pch/";
+				INFOPLIST_FILE = "$(SRCROOT)/Signaling_Agora_Group/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.nmc.player.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = YXNMC_WildCard;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6E35B8E2284280500468AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9021EB340FD797B796C751C /* Pods-Signaling_Agora_Group.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Signaling_Agora_Group/Support Files/Signalling_Agora_Group.pch/";
+				INFOPLIST_FILE = "$(SRCROOT)/Signaling_Agora_Group/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.nmc.player.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E35B712284280200468AE6 /* Build configuration list for PBXProject "Signaling_Agora_Group" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E35B8A2284280500468AE6 /* Debug */,
+				E6E35B8B2284280500468AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E35B8C2284280500468AE6 /* Build configuration list for PBXNativeTarget "Signaling_Agora_Group" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E35B8D2284280500468AE6 /* Debug */,
+				E6E35B8E2284280500468AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E35B6E2284280200468AE6 /* Project object */;
+}
